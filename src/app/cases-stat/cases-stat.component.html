@@ -2,7 +2,7 @@
     <h2>Corona Virus Cases Statistics</h2>
     <div class="example-loading-shade"
         *ngIf="isLoadingResults">
-        <mat-spinner *ngif="isLoadingResults"></mat-spinner>
+        <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
     </div>
     <div class="button-row">
         <mat-button-toggle-group name="status" aria-label="Status" [(ngModel)] ="label"

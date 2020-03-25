@@ -15,7 +15,7 @@ export class CasesStatComponent implements OnInit {
   stats: Statistic[] = [];
   label = 'Positive';
   isLoadingResults = true;
-  barCharOptions: ChartOptions = {
+  barChartOptions: ChartOptions = {
     responsive: true,
   };
   barChartLabels: Label[] = [];
